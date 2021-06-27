@@ -1,0 +1,200 @@
+body{
+  background-color: #f4f4f4;
+  padding: 0;
+  margin:0;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+ul{
+  padding:0;
+  margin: 0;
+}
+
+/* header */
+header{
+  background-color: #143059;
+  color: #ffffff;
+  padding: 10px 0;
+}
+
+header a{
+  color: white;
+  font-size: 20px;
+}
+
+header li{
+  display: inline;
+  padding: 20px;
+}
+
+#icon{
+  float: left;
+}
+
+#icon h1{
+  margin:0;
+}
+
+header nav{
+  float: right;
+  margin-top: -43px;
+}
+
+header .highlight , header .current a{
+  color: #f4B41A;
+  fond-weight: bold;
+}
+
+header a:hover{
+  color: #cccccc;
+  font-weight: gold;
+}
+
+#Hero{
+  min-height: 500px;
+  background-image: url('https://itxitpro.com/front/img/web-development-services.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  color:white;
+}
+
+#Hero h1{
+  margin-top:100px;
+  margin-bottom:0;
+  font-size:75px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+#Hero h2{
+  margin-top:10px;
+  margin-bottom:20px;
+  font-size:75px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+#images{
+  padding: 25px;
+  background-color: #f4f4f4;
+}
+
+#boxes
+{margin-top: 50px;
+}
+
+#boxes .box{float: left;
+text-align:center;
+padding:10px;
+width:30%;
+}
+
+#boxes .box h3{
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+#boxes .box p{
+  font-family: 'lobster', cursive;
+  font-size: 20px;
+}
+
+#Slogan h2{
+  text-align: center;
+  font-size: 55px;
+  font-weight: bold;
+  color: rgb(4, 158,55);
+  margin-top:70px;
+  margin-bottom: 50px;
+}
+
+#Slogan p{
+  text-align: center;
+  font-size:25px;
+  font-family:'lobster', cursive;
+}
+
+
+#Slogan h4{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  font-family:'Abril Fatface',cursive;
+}
+
+#forms {
+  background-color: bisque;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 20px;
+}
+
+/* #forms h4{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  font-family:'Abril Fatface',cursive;
+
+
+} */
+#register h3{
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  font-family:'Abril Fatface',cursive;
+}
+
+#forms .form-group{
+  padding-bottom: 15px;
+  font-size: 20px;
+  color: #f4841A;
+  font-weight:bold;
+}
+
+#forms label{
+  display: block;
+}
+
+#slogan-2{
+  text-align: center;
+  font-size: 55px;
+  font-weight: bold;
+  color: rgb(4, 158,55);
+  margin-top:70px;
+  margin-bottom: 50px;
+}
+
+
+#Video{
+  margin-top: 25px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 30px;
+}
+#Footer{
+  padding:20px;
+  margin-top:20px;
+  color: #ffffff;
+  background: #143059;
+  text-align: center;
+}
+
+#Slogan{
+  text-align: center;
+}
+
+#know-more{
+  display: none;
+}
+
+#name,#email,#batch{
+  color:red;
+  font-size: 14px;
+  display: none;
+
+}
